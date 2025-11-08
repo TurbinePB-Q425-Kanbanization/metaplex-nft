@@ -1,0 +1,20 @@
+{
+  "name": "solana-nft",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Metaplex NFT on Solana",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^1.7.0",
+    "@metaplex-foundation/umi": "^1.4.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
+    "@metaplex-foundation/umi-uploader-irys": "^1.4.1",
+    "@solana-developers/helpers": "^2.8.1",
+    "dotenv": "^17.2.3"
+  }
+}
